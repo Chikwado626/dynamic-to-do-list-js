@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const addButton = document.getElementById('add-task-btn');
     const taskInput = document.getElementById('task-input');
     const taskList = document.getElementById('task-list');
-
+    const element = document.getElementById("myElement");
+    element.classList.add("newClass");
     // Load tasks from Local Storage
     loadTasks();
 
