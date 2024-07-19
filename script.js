@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add an event listener to addButton to call addTask
-    addButton.addEventListener('click', () => addTask());
+    addButton.addEventListener('on click', () => addTask());
 
     // Add an event listener to taskInput for the 'keypress' event to allow tasks to be added by pressing the “Enter” key
     taskInput.addEventListener('keypress', (event) => {
